@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="FluentValidation" Version="11.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SparkPost" Version="1.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\projekatASP.Application\projekatASP.Application.csproj" />
+    <ProjectReference Include="..\projekatASP.DataAccess\projekatASP.DataAccess.csproj" />
+    <ProjectReference Include="..\projekatASP.Domain\projekatASP.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
